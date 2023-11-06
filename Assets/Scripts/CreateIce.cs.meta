@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 795e6b3d3851667488714dbf51f1cdf4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - IcePrefab1: {fileID: 1079096918977302385, guid: 19d8d20f7f67f2c4da923a5b1ad9d9ad, type: 3}
+  - IcePrefab2: {fileID: 2180524374507434549, guid: d195a6cb5cb354d4892a5a738c09bcac, type: 3}
+  - IcePrefab3: {fileID: 5254137837589664176, guid: 460f423e054269349880881c7b3002e5, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
