@@ -44,10 +44,18 @@ Material:
     m_Floats:
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
+    - _Normal_Speed: 0.7
     - _Normal_Strength: 0.3
-    - _Normal_Tile: 0.7
+    - _Normal_Tile: 0.2
     - _Smootheness: 0.8
+    - _Wave_Scale: 10
+    - _Wave_Tile: 1
     m_Colors:
-    - _color_close: {r: 0.4504568, g: 0.73320174, b: 0.9811321, a: 0.2509804}
-    - _color_horizon: {r: 0.07642101, g: 0.17580743, b: 0.26415092, a: 0.5019608}
+    - _Direction: {r: -1, g: 0, b: 0, a: 0}
+    - _Direction_1: {r: -1, g: -0.3, b: 0, a: 0}
+    - _Direction_2: {r: 0.5, g: 0.15, b: 0, a: 0}
+    - _Vector2: {r: -0.5, g: 0.04, b: 0, a: 0}
+    - _Vector3: {r: 0, g: 0, b: 0, a: 0}
+    - _color_close: {r: 0.2512756, g: 0.5042721, b: 0.7264151, a: 1}
+    - _color_horizon: {r: 0.076420985, g: 0.17580739, b: 0.2641509, a: 1}
   m_BuildTextureStacks: []
