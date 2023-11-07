@@ -45,16 +45,18 @@ Material:
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
     - _Normal_Speed: 0.7
-    - _Normal_Strength: 0.3
-    - _Normal_Tile: 0.2
+    - _Normal_Strength: 0.5
+    - _Normal_Tile: 0.15
     - _Smootheness: 0.8
-    - _Wave_Scale: 10
+    - _Wave_Scale: 12
+    - _Wave_Speed: -4
+    - _Wave_Strength: 5
     - _Wave_Tile: 1
     m_Colors:
     - _Direction: {r: -1, g: 0, b: 0, a: 0}
     - _Direction_1: {r: -1, g: -0.3, b: 0, a: 0}
     - _Direction_2: {r: 0.5, g: 0.15, b: 0, a: 0}
-    - _Vector2: {r: -0.5, g: 0.04, b: 0, a: 0}
+    - _Vector2: {r: -0.5, g: 0.02, b: 0, a: 0}
     - _Vector3: {r: 0, g: 0, b: 0, a: 0}
     - _color_close: {r: 0.2512756, g: 0.5042721, b: 0.7264151, a: 1}
     - _color_horizon: {r: 0.076420985, g: 0.17580739, b: 0.2641509, a: 1}
