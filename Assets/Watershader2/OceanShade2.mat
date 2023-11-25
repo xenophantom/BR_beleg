@@ -48,9 +48,10 @@ Material:
     - _Normal_Strength: 0.5
     - _Normal_Tile: 0.15
     - _Smootheness: 0.8
+    - _Smoothness: 0.8
     - _Wave_Scale: 12
     - _Wave_Speed: -4
-    - _Wave_Strength: 5
+    - _Wave_Strength: 1
     - _Wave_Tile: 1
     m_Colors:
     - _Direction: {r: -1, g: 0, b: 0, a: 0}
