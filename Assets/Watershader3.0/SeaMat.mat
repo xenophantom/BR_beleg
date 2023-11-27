@@ -45,16 +45,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Depth_Fade: 0.144
-    - _Normal_Map_Tiling: 0.2
-    - _Normal_Strength: 1
+    - _Depth_Fade: 1
+    - _Normal_Map_Tiling: 0.22
+    - _Normal_Strength: 0.5
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Smoothness: 0.98
-    - _Waves_Speed: 0.1
+    - _WavesFrequency: 0.01
+    - _Waves_Speed: 0.05
     m_Colors:
-    - _color_horizon: {r: 0.7924528, g: 0.17568529, b: 0.17568529, a: 1}
-    - _color_near: {r: 0, g: 0.1901753, b: 1, a: 1}
+    - _color_horizon: {r: 0.33490568, g: 0.36310893, b: 1, a: 0}
+    - _color_near: {r: 0.18600929, g: 0.23588082, b: 0.7169812, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &8240228090048474898
 MonoBehaviour:
