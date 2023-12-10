@@ -7,11 +7,12 @@ public class CreateIce : MonoBehaviour
     public GameObject IcePrefab1;
     public GameObject IcePrefab2;
     public GameObject IcePrefab3;
+    public GameObject RotationMeer;
     public int IceCount = 3;
-    public Vector3 spawnArea = new Vector3(100f, 0f, 20f);
     public float spawnInterval = 1f;
     private float timer = 0f;
     public float despawnDistance = 100f;
+    public int spawnDistance;
 
     void Start()
     {
@@ -25,6 +26,7 @@ public class CreateIce : MonoBehaviour
         if (timer >= spawnInterval)
         {
             GenerateIce();
+            //SurfaceAllignment();
             timer = 0f;
         }
     }
@@ -53,9 +55,7 @@ public class CreateIce : MonoBehaviour
             {
                 // Zufällige Position innerhalb des Spawn-Bereichs generieren
                 Vector3 randomPosition = new Vector3(
-                    Random.Range(0f, spawnArea.x),
-                    Random.Range(0f, spawnArea.y),
-                    Random.Range(100f, 100f)
+                    -25.2f, 0f, Random.Range(-spawnDistance, spawnDistance + 1)
                 );
 
                 // Skalierungsfaktor
@@ -64,12 +64,20 @@ public class CreateIce : MonoBehaviour
                 // Ice erzeugen und positionieren
                 GameObject Ice = Instantiate(selectedObject, randomPosition, Quaternion.Euler(0f, 0f, 0f));
                 Ice.transform.localScale *= scaleFactor;
-
-                // Ice mit Skript zum Verfolgen der Entfernung versehen
-                IceDistanceTracker distanceTracker = Ice.AddComponent<IceDistanceTracker>();
-                distanceTracker.startPosition = randomPosition;
-                distanceTracker.despawnDistance = despawnDistance;
+                Ice.transform.parent = RotationMeer.transform;
             }
         }
     }
+
+    /*
+    private void SurfaceAllignment()
+    {
+        Ray ray = new Ray(transform.position, -transform.up);
+        RaycastHit info = new RaycastHit();
+        if(Physics.Raycast(ray, out info, WhatisGround))
+        {
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.FromToRotation(Vector3.up,info.normal);
+        }
+    }
+    */
 }

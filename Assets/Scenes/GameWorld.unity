@@ -203,6 +203,51 @@ MonoBehaviour:
   floatingPower: 15
   waterHeight: 0
   floaters: []
+--- !u!1 &636888612
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 636888614}
+  - component: {fileID: 636888613}
+  m_Layer: 0
+  m_Name: Rotation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &636888613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636888612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dfc49e49966d0c4587f3e9947910b88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 5
+--- !u!4 &636888614
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636888612}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &733190301
 GameObject:
   m_ObjectHideFlags: 0
@@ -1165,7 +1210,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a65fd54e1bbe3b4eb34ea7b6c5e346c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPosition: {x: 0, y: 0, z: 0}
   despawnDistance: 100
 --- !u!114 &1892575809
 MonoBehaviour:
@@ -1182,10 +1226,11 @@ MonoBehaviour:
   IcePrefab1: {fileID: 1079096918977302385, guid: 19d8d20f7f67f2c4da923a5b1ad9d9ad, type: 3}
   IcePrefab2: {fileID: 2180524374507434549, guid: d195a6cb5cb354d4892a5a738c09bcac, type: 3}
   IcePrefab3: {fileID: 5254137837589664176, guid: 460f423e054269349880881c7b3002e5, type: 3}
+  RotationMeer: {fileID: 636888612}
   IceCount: 1
-  spawnArea: {x: 100, y: 0, z: 20}
-  spawnInterval: 1
+  spawnInterval: 5
   despawnDistance: 100
+  spawnDistance: 35
 --- !u!4 &1892575810
 Transform:
   m_ObjectHideFlags: 0
@@ -1195,7 +1240,7 @@ Transform:
   m_GameObject: {fileID: 1892575806}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.8350945, y: 50, z: -2.6}
+  m_LocalPosition: {x: 1.8953476, y: 18.15477, z: -47.612366}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1214,3 +1259,4 @@ SceneRoots:
   - {fileID: 733190307}
   - {fileID: 428390760}
   - {fileID: 1363259530}
+  - {fileID: 636888614}

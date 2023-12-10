@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1003831113618493240}
   - component: {fileID: 4557695956023011120}
   - component: {fileID: 5095657658353744545}
+  - component: {fileID: 4349177919555206059}
   m_Layer: 0
   m_Name: Ice3
   m_TagString: Untagged
@@ -121,3 +122,16 @@ MonoBehaviour:
   moveSpeed: 4
   constantMoveSpeed: 2
   constantMoveDirection: {x: 0, y: 0, z: -1}
+--- !u!114 &4349177919555206059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5254137837589664176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a65fd54e1bbe3b4eb34ea7b6c5e346c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  despawnDistance: 7.5
