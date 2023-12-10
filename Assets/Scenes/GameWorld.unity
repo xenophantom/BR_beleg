@@ -232,7 +232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dfc49e49966d0c4587f3e9947910b88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 5
+  rotationSpeed: 3
 --- !u!4 &636888614
 Transform:
   m_ObjectHideFlags: 0
@@ -1228,7 +1228,7 @@ MonoBehaviour:
   IcePrefab3: {fileID: 5254137837589664176, guid: 460f423e054269349880881c7b3002e5, type: 3}
   RotationMeer: {fileID: 636888612}
   IceCount: 1
-  spawnInterval: 5
+  spawnInterval: 2
   despawnDistance: 100
   spawnDistance: 35
 --- !u!4 &1892575810
