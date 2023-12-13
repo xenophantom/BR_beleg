@@ -26,7 +26,6 @@ public class CreateIce : MonoBehaviour
         if (timer >= spawnInterval)
         {
             GenerateIce();
-            //SurfaceAllignment();
             timer = 0f;
         }
     }
@@ -62,22 +61,10 @@ public class CreateIce : MonoBehaviour
                 float scaleFactor = 3f;
 
                 // Ice erzeugen und positionieren
-                GameObject Ice = Instantiate(selectedObject, randomPosition, Quaternion.Euler(0f, 0f, 0f));
+                GameObject Ice = Instantiate(selectedObject, randomPosition, Quaternion.Euler(0f, 0f, 90f));
                 Ice.transform.localScale *= scaleFactor;
                 Ice.transform.parent = RotationMeer.transform;
             }
         }
     }
-
-    /*
-    private void SurfaceAllignment()
-    {
-        Ray ray = new Ray(transform.position, -transform.up);
-        RaycastHit info = new RaycastHit();
-        if(Physics.Raycast(ray, out info, WhatisGround))
-        {
-            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.FromToRotation(Vector3.up,info.normal);
-        }
-    }
-    */
 }
