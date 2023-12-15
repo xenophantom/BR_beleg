@@ -3724,7 +3724,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 795e6b3d3851667488714dbf51f1cdf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IcePrefab1: {fileID: 1079096918977302385, guid: 19d8d20f7f67f2c4da923a5b1ad9d9ad, type: 3}
+  IcePrefab1: {fileID: 1079096918977302385, guid: ef7f74bde25a60d47b691e3caa28da31, type: 3}
   IcePrefab2: {fileID: 2180524374507434549, guid: d195a6cb5cb354d4892a5a738c09bcac, type: 3}
   IcePrefab3: {fileID: 5254137837589664176, guid: 460f423e054269349880881c7b3002e5, type: 3}
   RotationMeer: {fileID: 636888612}
