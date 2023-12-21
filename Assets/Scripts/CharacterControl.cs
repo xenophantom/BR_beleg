@@ -17,11 +17,11 @@ public class CharacterControl : MonoBehaviour
         float moveZ = Input.GetAxisRaw("Vertical");
 
         
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.RightArrow))
         {
             moveZ = 1f;
         }
-        else if (Input.GetKey(KeyCode.RightArrow))
+        else if (Input.GetKey(KeyCode.LeftArrow))
         {
             moveZ = -1f;
         }
