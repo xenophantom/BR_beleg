@@ -8,13 +8,13 @@ public class IceMovement : MonoBehaviour
     public float constantMoveSpeed = 1f;
     public Vector3 constantMoveDirection = Vector3.right;
 
-    private Rigidbody rb;
+    //private BoxCollider bc;
 
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody>();
-        gameObject.tag = "Ice";
+        //bc = GetComponent<BoxCollider>();
+        //gameObject.tag = "Ice";
     }
 
     // Update is called once per frame
@@ -32,9 +32,8 @@ public class IceMovement : MonoBehaviour
         Vector3 constantMovement = constantMoveDirection * constantMoveSpeed * randomSpeed * Time.fixedDeltaTime;
 
         // Bewegung
-        //rb.MovePosition(rb.position + movement + constantMovement);
-        rb.MovePosition(rb.position + constantMovement);
-
+        //bc.MovePosition(bc.position + constantMovement);
+        
 
     }
 }
