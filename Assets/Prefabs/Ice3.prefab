@@ -94,6 +94,7 @@ GameObject:
   - component: {fileID: 530047055603432517}
   - component: {fileID: -5815792717330147914}
   - component: {fileID: 7924963689801079421}
+  - component: {fileID: 4029474216605554564}
   m_Layer: 0
   m_Name: Ice3
   m_TagString: Untagged
@@ -145,3 +146,24 @@ MonoBehaviour:
   moveSpeed: 1.5
   constantMoveSpeed: 1
   constantMoveDirection: {x: 1, y: 0, z: 0}
+--- !u!65 &4029474216605554564
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5254137837589664176}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}

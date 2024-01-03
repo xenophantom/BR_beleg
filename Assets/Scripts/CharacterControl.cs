@@ -6,7 +6,7 @@ using UnityEngine;
 public class CharacterControl : MonoBehaviour
 {
     CharacterController _characterController;
-    float _moveSpeed = 10f;
+    float _moveSpeed = 1f;
 
      void Start(){
         _characterController = GetComponent<CharacterController>();
