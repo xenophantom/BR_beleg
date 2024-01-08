@@ -5,11 +5,11 @@ using UnityEngine;
 
 public class CharacterControl : MonoBehaviour
 {
-    CharacterController _characterController;
-    float _moveSpeed = 1f;
+    CharacterController characterController;
+    float moveSpeed = 1f;
 
      void Start(){
-        _characterController = GetComponent<CharacterController>();
+        characterController = GetComponent<CharacterController>();
      }
 
 
@@ -26,8 +26,8 @@ public class CharacterControl : MonoBehaviour
             moveZ = -1f;
         }
 
-        Vector3 moveVector = new Vector3(0f, 0f, moveZ) * _moveSpeed;
-        _characterController.Move(moveVector * Time.deltaTime);
+        Vector3 moveVector = new Vector3(0f, 0f, moveZ) * moveSpeed;
+        characterController.Move(moveVector * Time.deltaTime);
 
         LimitPlayerPosition();
      }

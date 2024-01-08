@@ -11,8 +11,9 @@ public class CreateIce : MonoBehaviour
     public int IceCount = 3;
     public float spawnInterval = 1f;
     private float timer = 0f;
-    public float despawnDistance = 100f;
+    public float despawnDistance = 10f;
     public int spawnDistance;
+    public float spawnHeight = -10f;
 
     void Start()
     {
@@ -54,7 +55,7 @@ public class CreateIce : MonoBehaviour
             {
                 // Zufällige Position innerhalb des Spawn-Bereichs generieren
                 Vector3 randomPosition = new Vector3(
-                    -25.2f, 0f, Random.Range(-spawnDistance, spawnDistance + 1)
+                    spawnHeight, 0f, Random.Range(-spawnDistance, spawnDistance + 1)
                 );
 
                 // Skalierungsfaktor
@@ -65,6 +66,11 @@ public class CreateIce : MonoBehaviour
                 Ice.transform.localScale *= scaleFactor;
                 Ice.transform.parent = RotationMeer.transform;
             }
+        }
+
+        if (transform.position.x >= despawnDistance)
+        {
+            Destroy(gameObject);
         }
     }
 }
