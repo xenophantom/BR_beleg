@@ -6,7 +6,7 @@ using UnityEngine;
 public class CharacterControl : MonoBehaviour
 {
     CharacterController characterController;
-    float moveSpeed = 1f;
+    float moveSpeed = 3f;
 
      void Start(){
         characterController = GetComponent<CharacterController>();
@@ -17,11 +17,11 @@ public class CharacterControl : MonoBehaviour
         float moveZ = Input.GetAxisRaw("Vertical");
 
         
-        if (Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
         {
             moveZ = 1f;
         }
-        else if (Input.GetKey(KeyCode.LeftArrow))
+        else if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
         {
             moveZ = -1f;
         }
@@ -33,8 +33,8 @@ public class CharacterControl : MonoBehaviour
      }
 
      void LimitPlayerPosition(){
-        float minX = -5f; 
-        float maxX = 5f;  
+        float minX = -3f; 
+        float maxX = 3f;  
 
         Vector3 currentPosition = transform.position;
 

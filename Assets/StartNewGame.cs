@@ -13,4 +13,8 @@ public class StartNewGame : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }
 
+    public void Quit() {
+        Application.Quit(); 
+    }
+
 }
