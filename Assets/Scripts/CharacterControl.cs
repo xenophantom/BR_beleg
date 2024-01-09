@@ -32,13 +32,13 @@ public class CharacterControl : MonoBehaviour
         LimitPlayerPosition();
      }
 
-     void LimitPlayerPosition(){
-        float minX = -3f; 
-        float maxX = 3f;  
+     void LimitPlayerPosition() {
+        float minZ = -0.9f; 
+        float maxZ = 0.9f;  
 
         Vector3 currentPosition = transform.position;
 
-        currentPosition.x = Mathf.Clamp(currentPosition.x, minX, maxX);
+        currentPosition.z = Mathf.Clamp(currentPosition.z, minZ, maxZ);
 
         transform.position = currentPosition;
      }
