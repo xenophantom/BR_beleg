@@ -130,7 +130,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a65fd54e1bbe3b4eb34ea7b6c5e346c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  despawnDistance: 7.5
+  scores: []
+  despawnDistance: 1
 --- !u!114 &7924963689801079421
 MonoBehaviour:
   m_ObjectHideFlags: 0

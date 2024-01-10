@@ -53,24 +53,19 @@ public class CreateIce : MonoBehaviour
         {
             for (int i = 0; i < IceCount; i++)
             {
-                // Zufällige Position innerhalb des Spawn-Bereichs generieren
+                // Zufï¿½llige Position innerhalb des Spawn-Bereichs generieren
                 Vector3 randomPosition = new Vector3(
-                    spawnHeight, 0f, Random.Range(-spawnDistance, spawnDistance + 1)
+                    -3.5f, 3.5f, Random.Range(-spawnDistance, spawnDistance + 1)
                 );
 
                 // Skalierungsfaktor
                 float scaleFactor = 3f;
 
                 // Ice erzeugen und positionieren
-                GameObject Ice = Instantiate(selectedObject, randomPosition, Quaternion.Euler(0f, 0f, 90f));
+                GameObject Ice = Instantiate(selectedObject, randomPosition, Quaternion.Euler(0f, 0f, 45f));
                 Ice.transform.localScale *= scaleFactor;
                 Ice.transform.parent = RotationMeer.transform;
             }
-        }
-
-        if (transform.position.x >= despawnDistance)
-        {
-            Destroy(gameObject);
         }
     }
 }

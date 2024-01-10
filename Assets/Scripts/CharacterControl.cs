@@ -8,6 +8,8 @@ public class CharacterControl : MonoBehaviour
     CharacterController characterController;
     float moveSpeed = 3f;
 
+
+
      void Start(){
         characterController = GetComponent<CharacterController>();
      }
@@ -33,8 +35,8 @@ public class CharacterControl : MonoBehaviour
      }
 
      void LimitPlayerPosition() {
-        float minZ = -0.9f; 
-        float maxZ = 0.9f;  
+        float minZ = -0.8f; 
+        float maxZ = 0.8f;  
 
         Vector3 currentPosition = transform.position;
 
