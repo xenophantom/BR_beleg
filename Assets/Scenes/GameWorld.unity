@@ -3547,7 +3547,7 @@ MonoBehaviour:
   IceCount: 1
   spawnInterval: 4
   despawnDistance: 10
-  spawnDistance: 0
+  spawnDistance: 1.6
   spawnHeight: -5
 --- !u!4 &1892575810
 Transform:

@@ -55,7 +55,7 @@ public class CreateIce : MonoBehaviour
             {
                 // Zuf�llige Position innerhalb des Spawn-Bereichs generieren
                 Vector3 randomPosition = new Vector3(
-                    -3.5f, 3.5f, Random.Range(-spawnDistance, spawnDistance + 1)
+                    -3.55f, 3.55f, Random.Range(-spawnDistance, spawnDistance + 1)
                 );
 
                 // Skalierungsfaktor
