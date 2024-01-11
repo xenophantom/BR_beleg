@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: OceanShade2
+  m_Name: OceanShader
   m_Shader: {fileID: -6465566751694194690, guid: 16975c0c99ffe084c89597c1c3ac3939, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -49,7 +49,7 @@ Material:
     - _Normal_Tile: 0.15
     - _Smootheness: 0.8
     - _Smoothness: 0.8
-    - _Wave_Scale: 12
+    - _Wave_Scale: 10
     - _Wave_Speed: -4
     - _Wave_Strength: 1
     - _Wave_Tile: 1
