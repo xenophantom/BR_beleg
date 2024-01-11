@@ -1662,7 +1662,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 494, y: 494, z: 160}
+  m_LocalScale: {x: 494, y: 494, z: 230}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -3547,7 +3547,7 @@ MonoBehaviour:
   IceCount: 1
   spawnInterval: 4
   despawnDistance: 10
-  spawnDistance: 1.6
+  spawnDistance: 2.3
   spawnHeight: -5
 --- !u!4 &1892575810
 Transform:
