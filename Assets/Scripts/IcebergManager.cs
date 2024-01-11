@@ -12,7 +12,7 @@ public class CreateIce : MonoBehaviour
     public float spawnInterval = 1f;
     private float timer = 0f;
     public float despawnDistance = 10f;
-    public int spawnDistance;
+    public float spawnDistance;
     public float spawnHeight = -10f;
 
     void Start()

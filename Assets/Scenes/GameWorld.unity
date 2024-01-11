@@ -2840,37 +2840,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1649839740}
   m_CullTransparentMesh: 1
---- !u!1 &1674759540
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1674759541}
-  m_Layer: 0
-  m_Name: test
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1674759541
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1674759540}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 1, y: 4.9894004, z: 0}
-  m_LocalScale: {x: 494.00012, y: 494.00012, z: 160}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1718842349
 GameObject:
   m_ObjectHideFlags: 0
@@ -3578,7 +3547,7 @@ MonoBehaviour:
   IceCount: 1
   spawnInterval: 4
   despawnDistance: 10
-  spawnDistance: 2
+  spawnDistance: 0
   spawnHeight: -5
 --- !u!4 &1892575810
 Transform:
@@ -3954,7 +3923,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 1718842352}
   - {fileID: 1612569027}
-  - {fileID: 1674759541}
   - {fileID: 924272972}
   - {fileID: 1892575810}
   - {fileID: 636888614}
