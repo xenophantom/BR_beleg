@@ -21,11 +21,11 @@ public class IceMovement : MonoBehaviour
     void Update()
     {
 
-        // Zufällige Bewegung auf der Z-Achse
+        // Zufï¿½llige Bewegung auf der Z-Achse
         //Vector3 randomMovement = new Vector3(0f, 0f, Random.Range(-1f, 1f)).normalized;
         //Vector3 movement = randomMovement * moveSpeed * Time.fixedDeltaTime;
 
-        //zufällige Geschwindigkeit
+        //zufï¿½llige Geschwindigkeit
         float randomSpeed = Random.Range(0f, moveSpeed);
 
         // Konstante Bewegung auf der X-Achse

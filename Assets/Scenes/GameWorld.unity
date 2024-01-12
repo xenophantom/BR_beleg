@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.11504342, g: 0.33144477, b: 0.71690416, a: 1}
+  m_IndirectSpecularColor: {r: 0.11504428, g: 0.33143875, b: 0.71690077, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -180,7 +180,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Main Menue
+  m_text: Main Menu
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -3559,9 +3559,9 @@ MonoBehaviour:
   IcePrefab3: {fileID: 5254137837589664176, guid: 460f423e054269349880881c7b3002e5, type: 3}
   RotationMeer: {fileID: 636888612}
   IceCount: 1
-  spawnInterval: 4
+  spawnInterval: 3
   despawnDistance: 10
-  spawnDistance: 2.3
+  spawnDistance: 1
   spawnHeight: -5
 --- !u!4 &1892575810
 Transform:
