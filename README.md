@@ -14,15 +14,9 @@ Die [.exe](https://github.com/xenophantom/BR_beleg/blob/main/BuildSettings/BR_be
 
 Im [Asset-Ordner](https://github.com/xenophantom/BR_beleg/tree/main/Assets) befinden sich alle Materialien, die verwendet wurden. Der Ordner folgt der internen Struktur, die in Unity im Projekt angelegt wurde. Alle Dateien mit der Endung `.cs` enthalten die Skripte.
 
-## Doku
-
 ### Shader
 
 ![](https://github.com/xenophantom/BR_beleg/blob/main/Screenshot%202024-01-16%20103142.png)
-
-### UI
-
-## Mechanics
 
 ## SOLL FEATURES
 
