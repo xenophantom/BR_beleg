@@ -6,9 +6,7 @@ Marie Repmann (49609), Lloyd König (50284), Felizitas Ebermann (49801) und Ther
 
 In „Eisabenteuer“werden die Spieler in die frostige Welt der Arktis entführt. Hier findet man sich auf einer Eisscholle mitten im weiten Ozean wieder. Als Spieler*in muss man schnell und geschickt entscheiden, wo lang zu fahren ist, um nicht gegen einen Eisberg zu stoßen.. Geplant ist ein Endlosmodus, bei dem man möglichst lange durchhält, ohne ins eiskalte Wasser zu fallen.
 
-![[Pasted image 20240116095340.png]]
-
----
+![](https://github.com/xenophantom/BR_beleg/blob/main/Pasted%20image%2020240116095340.png)
 
 ## Anleitung
 
@@ -24,8 +22,6 @@ Im [Asset-Ordner](https://github.com/xenophantom/BR_beleg/tree/main/Assets) befi
 
 ## Mechanics
 
----
-
 ## SOLL FEATURES
 
 1. Spielcharakter: ~~nur Sprungbewegung auf neue Scholle~~, unanimiert
@@ -39,8 +35,8 @@ Im [Asset-Ordner](https://github.com/xenophantom/BR_beleg/tree/main/Assets) befi
 4. Rotierende Wasserschicht:
 	Um eine Vorwärtsbewegung zu simulieren, könnten wir eine rotierende Ebene implementieren, auf der dann Spielelemente nach Kamerasichtbarkeit eingeblendet werden können (siehe Punkt 3). Allerdings können wir noch nicht einschätzen, inwiefern die Beleuchtungsmodelle hier funktionieren, wir möchten zum Beispiel, dass Elemente des Hintergrunds auch im Wasser reflektiert werden. Wir müssen also vorher testen, ob die unterschiedlichen Ebenen interagieren können.
 
-![[sketch_game_mechanism.png]]
-![[Pasted image 20240116095625.png]]
+![](https://github.com/xenophantom/BR_beleg/blob/main/sketch_game_mechanism.png)
+![](https://github.com/xenophantom/BR_beleg/blob/main/Pasted%20image%2020240116095625.png)
 
 ## KANN FEATURES
 
