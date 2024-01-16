@@ -18,6 +18,8 @@ Im [Asset-Ordner](https://github.com/xenophantom/BR_beleg/tree/main/Assets) befi
 
 ### Shader
 
+![](https://github.com/xenophantom/BR_beleg/blob/main/Screenshot%202024-01-16%20103142.png)
+
 ### UI
 
 ## Mechanics
