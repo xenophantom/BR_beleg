@@ -1,0 +1,51 @@
+[33m93861a6[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m Parameters for Icecreation adjusted + Menue renamed to Menu
+[33m33aca03[m player float movement added
+[33m2ba70b6[m rainrig added
+[33m539ef15[m widen ocean + adjust iceberg creation + clean files
+[33me9edf08[m remove Shader
+[33m89d2684[m float fixed
+[33m7370fd6[m int to float in create iceberg
+[33m2d76d72[m Cylinder Size + Interval adjusted and Highscore added
+[33m208c258[m diverse Verbesserungen
+[33mae6c4e2[m Movement, Exit, Score raus
+[33mf17c238[m Update Roboto-Bold SDF.asset
+[33mec4719a[m resized ocean, changed iceberg spawn variables
+[33m18304b8[m adjusted ocean size, centered objects
+[33m060f809[m Ocean Speeds adjusted
+[33mcd90ca1[m Ice Floe replaced
+[33mfe4a996[m diverse Funktionalitäten
+[33mf44f4bd[m Box Collider Iceberg
+[33mde97ca2[m reduced player move speed, added collision boxes to iceberg prefabs
+[33m4f486b4[m Pause Functionality, Character Movement
+[33mec634af[m Merge branch 'main' of https://github.com/xenophantom/BR_beleg
+[33maad9d6e[m Pause Functionality, Character Movement
+[33m3a4a213[m Ice_2, Ice_3 ergänzt
+[33m94dd26e[m other icebergs added and half of the size
+[33m4c2058a[m iceberg_1 decimated added
+[33mca3dcb8[m Update GameWorld.unity
+[33m0970076[m Iceberg1 added
+[33m604b8ff[m Iceberg landscape replaced with iceberg-3d-model
+[33m95adf1a[m Iceberg added in Prefabs
+[33mde156e3[m UI-Update
+[33mbac6586[m RotationSpeed, SpawnInterval
+[33m493f29b[m Ice Movement
+[33me4dbeb4[m Bad Ocean Shader 3.0 - current status
+[33m8f05da7[m Bad Ocean Shader 3.0 - cleaned - still damaged
+[33m887e24c[m Bad Ocean Shader 3.0 - from V.A. - Indie Dev
+[33mff68e2a[m added buoyancy script
+[33mfaccc83[m started base for movement system
+[33md961d33[m Current ocean status without proper waves
+[33md1c1b0c[m Zoom fixed; Ocean improved
+[33m6f74604[m Moving ocean
+[33m163ec29[m Cylinder world with ocean shader try
+[33maa54698[m Camera position adjusted
+[33m711cfde[m IceGenerator
+[33mf63a523[m Second Shader built
+[33m9908ff6[m Basic water environment with depth
+[33mf863e44[m bigger world
+[33m54b7fb6[m Not Needed
+[33macbd90b[m Sky,Sound
+[33m3a93ec7[m GameWorld
+[33m766926e[m Lavascripts
+[33m2cf7af2[m unity project setup
+[33m6d8f0c4[m Initial commit
