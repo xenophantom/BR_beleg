@@ -3559,7 +3559,7 @@ MonoBehaviour:
   IcePrefab3: {fileID: 5254137837589664176, guid: 460f423e054269349880881c7b3002e5, type: 3}
   RotationMeer: {fileID: 636888612}
   IceCount: 1
-  spawnInterval: 4
+  spawnInterval: 5
   despawnDistance: 10
   spawnDistance: 1
   spawnHeight: -5
